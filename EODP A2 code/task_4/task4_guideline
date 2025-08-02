@@ -1,0 +1,17 @@
+aim: Discovering High-Risk Vehicle Profiles via Severity-Oriented Clustering
+
+(almost the same logic as assignment 1 task 3, only differernce is we change y from number of crashes to severity)
+
+possible methods: 
+1. kmeans
+2. PCA
+
+note: pca first or cluster first?
+
+possible groups: 
+    1. Compact Commuters (4 seats, lightest weight)
+    2. Utility Beasts (4 seats, relatively heavy)
+    3. Family Movers (6-8 seats)
+    4. Heavy Haulers (multiple wheels, Diesel, Heavy Duty)
+    5. Public transport (professional driver, slow speed)
+

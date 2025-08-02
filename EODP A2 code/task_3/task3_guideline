@@ -1,0 +1,20 @@
+supervised learning model - supervised learning: 2 person
+
+aim: training and generate a prediction model
+
+possible methods:
+    step1. feature selection via random forest/regerssion model (may include encoding)
+    step2. use 5 fold stratified cross-validation to measure the performance of the model
+
+possible machine learning models: 
+    1. random forest/decision tree - categotical
+    2. logistic regression/other models
+
+- severity is a cate, so we choose random forest, results show the top ten importance
+- data is unbalance, so we upsample, our model is higher than basedline so good enough
+- before upsampling f1 score for fatal is low, sample low so model doesnst have enough data to learn, after upsampling, f1 score 
+higher so it improves 
+-logistic regression model accuracy is low as its better for linear relationships
+- evaluate confusion matrix
+- decision tree risk profile analysis
+- TARE_WEIGHT, VEHICLE_YEAR_MANUF try to find linear relationship with severity

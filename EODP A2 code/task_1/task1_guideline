@@ -1,0 +1,37 @@
+task 1 data pre-processing: 4 person
+
+aim: make sure data are balanced and no missing values and unreliable outliers 
+
+Possible Methods:
+    1. value_counts() to see if the number balanced -->plot a bar chart to see the differernce
+    2. percentage of missing value in one column --> remove the whole column or fill in with (mean/median/mode)
+    3. outiler detection using box-plot or Z-score --> may remove outliers
+    4. feature engineering --> convert the numerical data into categorical data
+    5. merge files
+
+
+step 1: target variables
+    1.1. separate the [level of injurity] into 3 categoties  - KAY
+    1.2. separate the [severity] and separate into 3 categories column - KEMAN LI
+
+in addition: plot a bar chart to show the number of accident for each category
+    
+possible categories: 
+    1: serious
+    2: minor 
+    3: not injured 
+
+step 2: feature variables
+    2.1: remove columns / Fill in columns
+    2.3: delete columns that is unrelated or not useful
+
+
+
+
+
+
+    
+
+
+
+

@@ -1,0 +1,25 @@
+
+
+References
+
+Tavakoli Kashani, A., Rakhshani Moghadam, M., Taheri, A., Müller, G., & Dissanayake, D. A. (2024). 
+How does the safety performance of different vehicle types and weights affect the severity of a driver’s injury? 
+International Journal of Crashworthiness, 29(2), 198–209. https://doi.org/10.1080/13588265.2023.2230636
+
+- VEHICLE_TYPE
+- TARE_WEIGHT
+
+Guilhermina, T., Nagui, R., & Margarida, C. (2012). Effect of Vehicle Characteristics on Crash Severity: Portuguese Experience.
+INJURY PREVENTION, 18, A216. https://doi.org/10.1136/injuryprev-2012-040590u.41
+
+- NO_OF_CYLINDERS
+- NO_OF_WHEELS
+- TARE_WEIGHT
+- AGE
+
+https://www.researchgate.net/profile/Margarida-Coelho-5/publication/267684057_Effect_of_vehicle_characteristics_on_crash_severity_Portuguese_experience/links/54d9d9260cf24647581f983b/Effect-of-vehicle-characteristics-on-crash-severity-Portuguese-experience.pdf
+
+
+AUS government vehicle types.
+
+https://www.bitre.gov.au/publications/2021/australias-light-vehicle-fleet-some-insights#:~:text=Vehicle%20characteristics%20considered%20include%20fuel,and%20utilities%20are%20also%20examined.

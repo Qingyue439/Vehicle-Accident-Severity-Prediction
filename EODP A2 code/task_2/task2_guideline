@@ -1,0 +1,42 @@
+correlation analysis: 4 person
+
+aim: find the most associated factors
+
+type of relationships: only numerical data
+    1. linear relationship
+    2. non-linear relationship
+
+possible correlations: 
+    1. categorical vs categorical
+    3. categorical vs numerical
+
+possible methods:
+    step 1.1 remove unreliable outliers of each columns before analysis relationships
+        - use fine number summary to plot box-plot
+    step 1.2 try to find a relationship: 
+
+        1. mutual information: discrete variabley & linear and non-linear (continous variable need to do discretise (kBinDiscrerizer/histogram) first)
+        2. pearson correlation: continous variable & linear only (need to do normlization first)
+        3. ANOVA
+        4. CHI-square
+        5. groupby + heatmap
+        6. Kruskal-Wallis
+            
+
+✅ Person 1: Zhao
+Categorical: 'VEHICLE_BODY_STYLE'
+Numerical: 'NO_OF_WHEELS', 'SEATING_CAPACITY' - continous
+
+✅ Person 2: Ren
+Categorical: 'VEHICLE_MAKE'
+Numerical: 'TOTAL_NO_OCCUPANTS', 'VEHICLE_YEAR_MANUF'
+
+✅ erson 3: Li KEMAN 
+Categorical:'VEHICLE_COLOUR_1'
+Numerical: 'FUEL_TYPE', 'TARE_WEIGHT'
+
+✅ Person 4: K
+Categorical: 'VEHICLE_TYPE'
+Numerical:'NO_OF_CYLINDERS'
+
+

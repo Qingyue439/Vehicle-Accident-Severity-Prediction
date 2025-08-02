@@ -1,0 +1,16 @@
+research question
+
+1. How do vehicle characteristics affect the accident severity and likelihood, are there any high-risk vehicle profile?
+target variable: accident severity
+
+    definition: severity 
+
+    column include:  
+
+feature varaible: vehicle characteristics
+
+definition: type, size, weight, capacity, etc
+
+file use: vehicle.csv and accident.csv
+
+
